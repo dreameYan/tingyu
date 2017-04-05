@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/textViewUsernameLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="用户名"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText 
+        android:id="@+id/usernameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        />
+
+    <TextView
+	      android:id="@+id/textViewPasswordLabel"
+	      android:layout_width="match_parent"
+	      android:layout_height="wrap_content"
+	      android:gravity="left|center_vertical"
+	      android:text="密码"
+	      android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText 
+        android:id="@+id/passwordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+            />
+
+</LinearLayout>

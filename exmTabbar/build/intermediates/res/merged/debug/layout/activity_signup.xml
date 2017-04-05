@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- <include layout="@layout/base_activity_titlebar" /> -->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <!-- <RelativeLayout
+                android:id="@+id/set_imgheads"
+                android:layout_width="match_parent"
+                android:layout_height="63.3dp"
+                android:background="@color/whites" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="24.7dp"
+                    android:text="更换头像"
+                    android:textColor="@color/black_33"
+                    android:textSize="14sp" />
+
+                <com.hipad.read.base.headimagview.MyImageView
+                    android:id="@+id/img_heads"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="14dp"
+                    android:layout_marginTop="7.3dp" />
+            </RelativeLayout> -->
+
+            <!--<View-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="0.5dp"-->
+            <!--android:background="?android:attr/listDivider" />-->
+
+            <RelativeLayout
+                android:id="@+id/name_lay"
+                android:layout_width="match_parent"
+                android:layout_height="49dp">
+
+                <EditText
+                    android:id="@+id/name_edtext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="14dp"
+                    android:layout_toRightOf="@+id/name"
+                    android:background="@null"
+                    android:hint="请输入昵称"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="26dp"
+                    android:text="用户名"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="26dp"
+                android:background="#D3D3D3" />
+
+            <LinearLayout
+                android:id="@+id/collapse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp">
+
+                    <EditText
+                        android:id="@+id/mail_edtext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="14dp"
+                        android:layout_toRightOf="@+id/mail"
+                        android:background="@null"
+                        android:hint="请输入邮箱"
+                        android:textColor="@color/grey"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/mail"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="26dp"
+                        android:text="邮箱"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="26dp"
+                    android:background="#D3D3D3" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp">
+
+                    <EditText
+                        android:id="@+id/password_edtxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="14dp"
+                        android:layout_toRightOf="@+id/passwords"
+                        android:background="@null"
+                        android:hint="请输入6-20位字母、数字和符号"
+                        android:imeActionId="@+id/signUp"
+                        android:inputType="textPassword"
+                        android:textColor="@color/grey"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/passwords"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="26dp"
+                        android:text="密码"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="26dp"
+                    android:background="#D3D3D3" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp">
+
+                    <EditText
+                        android:id="@+id/agin_password_edtxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="14dp"
+                        android:layout_toRightOf="@+id/agin_password"
+                        android:background="@null"
+                        android:hint="请再次输入密码 "
+                        android:inputType="textPassword"
+                        android:textColor="@color/grey"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/agin_password"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="26dp"
+                        android:text="确认密码"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/phone_layout"
+                android:layout_width="match_parent"
+                android:layout_height="48dp">
+
+                <EditText
+                    android:id="@+id/phone_edtxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="14dp"
+                    android:layout_toRightOf="@+id/phone"
+                    android:background="@null"
+                    android:hint="请输入手机号"
+                    android:imeActionId="@+id/signUp"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="26dp"
+                    android:text="手机号码"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="26dp"
+                android:background="#D3D3D3" />
+
+            <RelativeLayout
+                android:id="@+id/verify_layout"
+                android:layout_width="match_parent"
+                android:layout_height="48dp">
+
+                <EditText
+                    android:id="@+id/verify_edtxt"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="14dp"
+                    android:layout_toRightOf="@+id/verify"
+                    android:background="@null"
+                    android:hint="请输入验证码"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/verify"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="26dp"
+                    android:text="验证码"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/verify_bt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@+id/verify_edtxt"
+                    android:paddingRight="10dp"
+                    android:text="发送验证码" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="26dp"
+                android:background="#D3D3D3" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/signup_bt"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/bton_shaple"
+            android:text="完成"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/have_zhanghao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="14dp"
+            android:text="已有账号，返回登陆"
+            android:textColor="@color/blue"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

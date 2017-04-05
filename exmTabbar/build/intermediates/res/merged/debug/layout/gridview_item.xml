@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="63dp">
+	    <TextView
+	        android:id="@+id/title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_centerInParent="true"
+	        android:layout_marginLeft="6dp"
+	        android:layout_marginRight="6dp"
+	        android:text="woshitimu"
+	        android:textSize="@dimen/sanshier" 
+	        android:textColor="@color/detailGrey"/>
+        <!-- <Button
+               android:onClick="click"
+               android:id="@+id/ll_schedule"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:background="@drawable/data_icon"
+               android:paddingTop="45dp"
+               android:text="全部音频"
+               android:textSize="@dimen/sanshier"
+               android:textColor="@color/detailGrey"/> -->
+	</RelativeLayout>
+
+</LinearLayout>

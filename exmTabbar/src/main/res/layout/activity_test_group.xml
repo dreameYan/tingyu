@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_tabbar_height"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/layout_first"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/img_first"
+                style="@style/img_tabbar"
+                android:background="@drawable/ic_tabbar_first_normal" />
+
+            <TextView
+                android:id="@+id/txt_first"
+                style="@style/txt_tabbar"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/menu_first" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_second"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/img_second"
+                style="@style/img_tabbar"
+                android:background="@drawable/ic_tabbar_second_normal" />
+
+            <TextView
+                android:id="@+id/txt_second"
+                style="@style/txt_tabbar"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/menu_second" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_third"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/img_third"
+                style="@style/img_tabbar"
+                android:background="@drawable/ic_tabbar_third_normal" />
+
+            <TextView
+                android:id="@+id/txt_third"
+                style="@style/txt_tabbar"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/menu_third" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <Button
+        android:id="@+id/btn_tabhost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="进入TabActivity标签页"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+    
+    <Button
+        android:id="@+id/btn_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="进入ActivityGroup标签页"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+    
+    <Button
+        android:id="@+id/btn_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="进入FragmentActivity标签页"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+    
+
+</LinearLayout>

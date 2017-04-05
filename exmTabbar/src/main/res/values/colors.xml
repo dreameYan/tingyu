@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_bg">#EEFFEE</color>
+    <color name="transparent">#00000000</color>
+    <color name="lucency_white">#00ffffff</color>
+    <color name="lucency_black">#00000000</color>
+    <color name="half_lucency_black">#88000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="hint">#ff999999</color>
+    <color name="grey">#ff666666</color>
+    <color name="blue">#ff2e94da</color>
+    <color name="red">#ffa22a22</color>
+    <color name="tab_text_selected">#ff0084e8</color>
+    <color name="tab_text_normal">#ff7597b3</color>
+    
+    <color name="bgGrey">#ededed</color>
+    <color name="titleBlack">#323232</color>
+    <color name="detailGrey">#4b4b4b</color>
+    
+    
+    
+    <color name="common_white">#ffffff</color>
+    <color name="common_white_shadow">#414141</color>
+    <color name="common_white_disabled">#e7e7e7</color>
+    <!-- For main texts -->
+    <color name="common_dark">#3d5562</color>
+    <color name="common_dark_shadow">#dedede</color>
+    <color name="common_dark_disabled">#9aa7af</color>
+    <!-- For secondary texts -->
+    <color name="common_grey">#8496a0</color>
+    <color name="common_grey_disabled">#aabbc4</color>
+    <!-- For danger cases, such as virus, file delete... -->
+    <color name="common_red">#e62f2f</color>
+    <!-- For warning cases, such as trashes... -->
+    <color name="common_yellow">#f1930d</color>
+    <!-- For safe cases -->
+    <color name="common_green">#60990c</color>
+    <!-- For suggestions -->
+    <color name="common_blue">#4b8bbd</color>
+    <color name="tab_indicator_text_selected">#ffffff</color>
+    <color name="tab_indicator_text_unselected">#aac5d7</color>
+    <color name="page_viewer_margin_color">#007800</color>
+    
+    <drawable name="transparent">#00000000</drawable>
+</resources>

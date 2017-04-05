@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/limengyan/AndroidStudioProjects/ExmTabbar/exmTabbar/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_launcher.png",
+        "source": "/Users/limengyan/AndroidStudioProjects/ExmTabbar/exmTabbar/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/limengyan/AndroidStudioProjects/ExmTabbar/exmTabbar/build/intermediates/res/merged/debug/drawable-xxhdpi/dianjierweima.png",
+        "source": "/Users/limengyan/AndroidStudioProjects/ExmTabbar/exmTabbar/src/main/res/drawable-xxhdpi/dianjierweima.png"
+    },
+    {
+        "merged": "/Users/limengyan/AndroidStudioProjects/ExmTabbar/exmTabbar/build/intermediates/res/merged/debug/drawable-xxhdpi/anniu_down.png",
+        "source": "/Users/limengyan/AndroidStudioProjects/ExmTabbar/exmTabbar/src/main/res/drawable-xxhdpi/anniu_down.png"
+    },
+    {
+        "merged": "/Users/limengyan/AndroidStudioProjects/ExmTabbar/exmTabbar/build/intermediates/res/merged/debug/drawable-xxhdpi/touxiang1.png",
+        "source": "/Users/limengyan/AndroidStudioProjects/ExmTabbar/exmTabbar/src/main/res/drawable-xxhdpi/touxiang1.png"
+    },
+    {
+        "merged": "/Users/limengyan/AndroidStudioProjects/ExmTabbar/exmTabbar/build/intermediates/res/merged/debug/drawable-xxhdpi/arrow_right_down.png",
+        "source": "/Users/limengyan/AndroidStudioProjects/ExmTabbar/exmTabbar/src/main/res/drawable-xxhdpi/arrow_right_down.png"
+    },
+    {
+        "merged": "/Users/limengyan/AndroidStudioProjects/ExmTabbar/exmTabbar/build/intermediates/res/merged/debug/drawable-xxhdpi/contact_default_big.png",
+        "source": "/Users/limengyan/AndroidStudioProjects/ExmTabbar/exmTabbar/src/main/res/drawable-xxhdpi/contact_default_big.png"
+    },
+    {
+        "merged": "/Users/limengyan/AndroidStudioProjects/ExmTabbar/exmTabbar/build/intermediates/res/merged/debug/drawable-xxhdpi/bg0.png",
+        "source": "/Users/limengyan/AndroidStudioProjects/ExmTabbar/exmTabbar/src/main/res/drawable-xxhdpi/bg0.png"
+    },
+    {
+        "merged": "/Users/limengyan/AndroidStudioProjects/ExmTabbar/exmTabbar/build/intermediates/res/merged/debug/drawable-xxhdpi/data_icon.png",
+        "source": "/Users/limengyan/AndroidStudioProjects/ExmTabbar/exmTabbar/src/main/res/drawable-xxhdpi/data_icon.png"
+    },
+    {
+        "merged": "/Users/limengyan/AndroidStudioProjects/ExmTabbar/exmTabbar/build/intermediates/res/merged/debug/drawable-xxhdpi/data_icon_down.png",
+        "source": "/Users/limengyan/AndroidStudioProjects/ExmTabbar/exmTabbar/src/main/res/drawable-xxhdpi/data_icon_down.png"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/limengyan/AndroidStudioProjects/ExmTabbar/trineaandroidcommon/build/intermediates/res/merged/androidTest/debug/layout/drop_down_list_header.xml",
+        "source": "/Users/limengyan/AndroidStudioProjects/ExmTabbar/trineaandroidcommon/build/intermediates/bundles/debug/res/layout/drop_down_list_header.xml"
+    },
+    {
+        "merged": "/Users/limengyan/AndroidStudioProjects/ExmTabbar/trineaandroidcommon/build/intermediates/res/merged/androidTest/debug/layout/drop_down_list_footer.xml",
+        "source": "/Users/limengyan/AndroidStudioProjects/ExmTabbar/trineaandroidcommon/build/intermediates/bundles/debug/res/layout/drop_down_list_footer.xml"
+    }
+]
